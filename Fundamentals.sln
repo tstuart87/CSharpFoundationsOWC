@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "00_HelloWorld
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "01_Variables\Variables.csproj", "{7FEF4680-680E-4625-BE37-EBF090DDFA40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyChallenges", "DailyChallenges\DailyChallenges.csproj", "{4CD15522-E875-483B-8700-C41834EA941C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_OperatorsConditionals", "02_OperatorsConditionals\02_OperatorsConditionals.csproj", "{B3C0F257-7FA4-48C2-B639-D1C28B13D052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{7FEF4680-680E-4625-BE37-EBF090DDFA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FEF4680-680E-4625-BE37-EBF090DDFA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FEF4680-680E-4625-BE37-EBF090DDFA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD15522-E875-483B-8700-C41834EA941C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD15522-E875-483B-8700-C41834EA941C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD15522-E875-483B-8700-C41834EA941C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD15522-E875-483B-8700-C41834EA941C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C0F257-7FA4-48C2-B639-D1C28B13D052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C0F257-7FA4-48C2-B639-D1C28B13D052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C0F257-7FA4-48C2-B639-D1C28B13D052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C0F257-7FA4-48C2-B639-D1C28B13D052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
