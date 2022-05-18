@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalShelter.Repository", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Stacks_Queues", "06_Stacks_Queues\06_Stacks_Queues.csproj", "{4CC71DFE-638F-4D87-8F66-E87B25FA3A4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoldyPotatoes.ConsoleApp", "MoldyPotatoes.ConsoleApp\MoldyPotatoes.ConsoleApp.csproj", "{A90021AD-50BE-4F34-BE81-C5CEBB9A6CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoldyPotatoes.Repository", "MoldyPotatoes.Repository\MoldyPotatoes.Repository.csproj", "{8806E636-FADE-40FD-9B5A-28CA041A5638}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +82,13 @@ Global
 		{4CC71DFE-638F-4D87-8F66-E87B25FA3A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CC71DFE-638F-4D87-8F66-E87B25FA3A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CC71DFE-638F-4D87-8F66-E87B25FA3A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90021AD-50BE-4F34-BE81-C5CEBB9A6CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90021AD-50BE-4F34-BE81-C5CEBB9A6CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90021AD-50BE-4F34-BE81-C5CEBB9A6CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90021AD-50BE-4F34-BE81-C5CEBB9A6CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8806E636-FADE-40FD-9B5A-28CA041A5638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8806E636-FADE-40FD-9B5A-28CA041A5638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8806E636-FADE-40FD-9B5A-28CA041A5638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8806E636-FADE-40FD-9B5A-28CA041A5638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
