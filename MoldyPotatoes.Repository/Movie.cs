@@ -11,12 +11,12 @@ namespace MoldyPotatoes.Repository
         public string Title { get; set; }
         public string DirectorName { get; set; }
         public bool IsKidFriendly { get; set; }
-        public Genre MovieGenre { get; set; }
-        public Rating MovieRating { get; set; }
+        public Genre? MovieGenre { get; set; }
+        public Rating? MovieRating { get; set; }
         public int Stars { get; set; }
 
         //FULL CONSTRUCTOR
-        public Movie(string title, string directorName, bool isKidFriendly, Genre movieGenre, Rating movieRating, int stars)
+        public Movie(string title, string directorName, bool isKidFriendly, Genre? movieGenre, Rating? movieRating, int stars)
         {
             Title = title;
             DirectorName = directorName;
