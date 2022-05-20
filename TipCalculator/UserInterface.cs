@@ -7,12 +7,12 @@ namespace TipCalculator
 {
     public class UserInterface
     {
-        ICustomConsole _print;
+        ILanguage _print;
 
         //Constructor using DEPENDENCY INJECTION
-        public UserInterface(ICustomConsole console)
+        public UserInterface(ILanguage tomato)
         {
-            _print = console;
+            _print = tomato;
         }
 
         TipRepo _tipRepo = new TipRepo();
@@ -40,9 +40,10 @@ namespace TipCalculator
         //
     }
 
+
     // LANGUAGE CLASSES THAT IMPLEMENT THE INTERFACE ICustomConsole
 
-    public class English : ICustomConsole
+    public class English : ILanguage
     {
         public void AskUserForTotalBill()
         {
@@ -55,7 +56,7 @@ namespace TipCalculator
         }
     }
 
-    public class Espanol : ICustomConsole
+    public class Espanol : ILanguage
     {
         public void AskUserForTotalBill()
         {
@@ -68,7 +69,7 @@ namespace TipCalculator
         }
     }
 
-    public class Mandarin : ICustomConsole
+    public class Mandarin : ILanguage
     {
         public void AskUserForTotalBill()
         {
@@ -81,7 +82,7 @@ namespace TipCalculator
         }
     }
 
-    public class Hindi : ICustomConsole
+    public class Hindi : ILanguage
     {
         public void AskUserForTotalBill()
         {
@@ -94,7 +95,7 @@ namespace TipCalculator
         }
     }
 
-    public class French : ICustomConsole
+    public class French : ILanguage
     {
         public void AskUserForTotalBill()
         {
@@ -107,7 +108,7 @@ namespace TipCalculator
         }
     }
 
-    public class Deutsch : ICustomConsole
+    public class Deutsch : ILanguage
     {
         public void AskUserForTotalBill()
         {
@@ -120,7 +121,7 @@ namespace TipCalculator
         }
     }
 
-    public class Bengali : ICustomConsole
+    public class Bengali : ILanguage
     {
         public void AskUserForTotalBill()
         {
@@ -135,3 +136,6 @@ namespace TipCalculator
 
     //
 }
+
+
+

@@ -10,7 +10,7 @@ Console.WriteLine("1. ENGLISH\n" +
 
 string input = Console.ReadLine();
 
-ICustomConsole console;
+ILanguage console;
 
 switch (input)
 {
